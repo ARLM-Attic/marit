@@ -1,0 +1,67 @@
+<!-- Copyright (C) 2013 Marie Högkvist
+
+Licensed under GNU Lesser General Public License (LGPL)
+
+For more information, visit
+https://marit.codeplex.com/ -->
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:custom="http://schemas.android.com/apk/src/com.hogkvist.marit"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".DrawActivity">
+        
+    <!-- Canvas area -->
+    <view
+        android:id="@+id/DrawView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        class="com.hogkvist.marit.DrawView" />
+    
+    <!--  TODO: Add colors  -->
+    <!-- Green color button -->        
+    <!-- <com.hogkvist.marit.DrawButton
+        android:id="@+id/ColorButton_Green"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/ResetButton" 
+        android:background="@drawable/colorbutton_green" />-->
+       
+    <!-- Red color button -->
+    <!-- <com.hogkvist.marit.DrawButton
+        android:id="@+id/ColorButton_Red"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/ColorButton_Green"
+        android:background="@drawable/colorbutton_red" />-->
+            
+    <!-- Blue color button -->
+    <!--  <com.hogkvist.marit.DrawButton
+        android:id="@+id/ColorButton_Blue"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/ColorButton_Red"
+        android:background="@drawable/colorbutton_blue" />-->
+          
+    <!-- Black color button -->
+    <!-- <com.hogkvist.marit.DrawButton
+        android:id="@+id/ColorButton_Black"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/ColorButton_Blue" 
+        android:background="@drawable/colorbutton_black" />-->
+
+    <!-- Reset button -->
+    <com.hogkvist.marit.DrawButton
+        android:id="@+id/ResetButton"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/DrawView"
+        android:layout_alignTop="@+id/DrawView"
+        android:background="@drawable/button_reset"/>
+
+</RelativeLayout>

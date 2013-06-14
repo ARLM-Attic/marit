@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MARIT</string>
+    <string name="action_settings">Settings</string>
+    <string name="view_drawing">ViewDrawing</string>
+    <string name="reset_button">Reset</string>
+    <string name="save_currentdrawing">MARIT.CurrentDrawing.png</string> <!-- TODO: Use this value for current drawing save file -->
+    
+</resources>
