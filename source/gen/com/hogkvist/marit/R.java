@@ -26,8 +26,8 @@ public final class R {
         public static final int colorbutton_blue=0x7f020002;
         public static final int colorbutton_green=0x7f020003;
         public static final int colorbutton_red=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int reset_button=0x7f020006;
+        public static final int content_discard=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
     }
     public static final class id {
         public static final int DrawView=0x7f080000;
